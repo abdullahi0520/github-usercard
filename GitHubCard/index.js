@@ -5,7 +5,7 @@ const { default: axios } = require("axios");
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
-axios.get('https://api.github.com/users/abdullahi-ahmed')
+axios.get('https://api.github.com/users/abdullahi0520')
 .then(resp => {
   console.log(resp.data);
 })
@@ -95,7 +95,7 @@ function cardMaker(obj) {
 
   return card
 }
-axios.get('https://api.github.com/users/abdullahi-ahmed')
+axios.get('https://api.github.com/users/abdullahi0520')
 .then(resp => {
   const card = cardMaker(resp)
 document.querySelector('.cards').append(card)
